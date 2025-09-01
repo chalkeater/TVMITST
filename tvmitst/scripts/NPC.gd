@@ -80,6 +80,11 @@ func start_interaction():
 	
 	interaction_started.emit(character_name)
 	
+	# If dialogue is already active, advance to next line
+	if DialogueManager.is_dialogue_active:
+		DialogueManager.next_line()
+		return
+	
 	# Get the appropriate dialogue sequence
 	var dialogue_data = get_dialogue_sequence()
 	

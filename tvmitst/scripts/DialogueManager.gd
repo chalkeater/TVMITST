@@ -15,6 +15,7 @@ var story_progress: int = 0
 var current_dialogue: Array = []
 var current_line: int = 0
 var is_dialogue_active: bool = false
+var waiting_for_choice: bool = false
 
 # Word replacement system
 var word_replacements: Dictionary = {
@@ -48,6 +49,15 @@ var word_replacements: Dictionary = {
 func _ready():
 	print("DialogueManager ready - managing story and vocabulary")
 
+func _input(event):
+	# Handle choice selection during dialogue (keyboard only)
+	if waiting_for_choice and event is InputEventKey and event.pressed:
+		match event.keycode:
+			KEY_1:
+				make_choice(0)  # First choice
+			KEY_2:
+				make_choice(1)  # Second choice
+
 # Start a dialogue sequence
 func start_dialogue(dialogue_data: Array, character_name: String = ""):
 	current_dialogue = dialogue_data
@@ -63,14 +73,20 @@ func show_current_line():
 		return
 	
 	var line_data = current_dialogue[current_line]
-	var processed_text = replace_learned_words(line_data.text)
+	var original_text = line_data.text
+	var processed_text = replace_learned_words(original_text)
 	
-	# Emit signal to UI to display the text
-	# (We'll create the UI system next)
+	# Check if this is a choice line
+	if processed_text.contains("[Choice]"):
+		waiting_for_choice = true
+	else:
+		waiting_for_choice = false
+	
+	# Still print to console for debugging
 	print("DIALOGUE: ", processed_text)
 	
 	# Check if this line teaches new words
-	if line_data.has("teaches_word"):
+	if line_data.has("teaches_word") and line_data.teaches_word != null:
 		learn_word(line_data.teaches_word)
 
 # Replace English words with Spanish equivalents based on learning progress
@@ -80,10 +96,10 @@ func replace_learned_words(text: String) -> String:
 	for english_word in learned_words.keys():
 		if learned_words[english_word] == true:  # Word is learned
 			var spanish_word = word_replacements.get(english_word, english_word)
-			# Replace whole words only (not partial matches)
-			var regex = RegEx.new()
-			regex.compile("\\b" + english_word + "\\b")
-			result = regex.sub(result, spanish_word, true)
+			# Simple case-insensitive replacement for now
+			result = result.replace(english_word.capitalize(), spanish_word.capitalize())
+			result = result.replace(english_word.to_lower(), spanish_word.to_lower())
+			result = result.replace(english_word.to_upper(), spanish_word.to_upper())
 	
 	return result
 
@@ -97,9 +113,27 @@ func learn_word(english_word: String):
 
 # Advance to next dialogue line
 func next_line():
-	if not is_dialogue_active:
+	if not is_dialogue_active or waiting_for_choice:
 		return
 	
+	current_line += 1
+	show_current_line()
+
+# Handle player choice selection
+func make_choice(choice_index: int):
+	if not waiting_for_choice:
+		return
+	
+	waiting_for_choice = false
+	
+	# For now, just learn "yes" if they choose the first option
+	if choice_index == 0:
+		learn_word("yes")
+		print("You chose: Yes, I'll help you!")
+	else:
+		print("You chose: What do you mean?")
+	
+	# Continue to next line
 	current_line += 1
 	show_current_line()
 

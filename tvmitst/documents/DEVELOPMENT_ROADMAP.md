@@ -37,11 +37,11 @@ This document breaks down the development of "This Very Moment Is The Spanish Te
 - [x] ✅ Implement three learning states (UNKNOWN, LEARNING, LEARNED)
 - [x] ✅ Add word properties (english_word, spanish_word, gender)
 - [x] ✅ Create click detection system
-- [ ] **PIVOT**: Design narrative-driven dialogue system
-- [ ] Create contextual word replacement system
-- [ ] Implement story progression tracking
-- [ ] Design first story scene with gradual Spanish introduction
-- [ ] Create choice-based dialogue trees
+- [x] ✅ **PIVOT COMPLETE**: Design narrative-driven dialogue system
+- [x] ✅ Create contextual word replacement system (WORKING!)
+- [x] ✅ Implement story progression tracking
+- [x] ✅ Design first story scene with gradual Spanish introduction
+- [x] ✅ Create choice-based dialogue trees
 
 ### Week 2: Visual Systems & UI
 
