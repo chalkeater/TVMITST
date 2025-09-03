@@ -4,283 +4,139 @@
 
 ### Learning Philosophy
 
-Based on research in second language acquisition, we introduce vocabulary in order of:
+Learning Spanish through Dave Thompson's beautiful chaos, where discomfort becomes the perfect teacher. Vocabulary and grammar emerge naturally through emotional investment in the story, not forced memorization.
 
-1. **Frequency** - Most commonly used words first
-2. **Emotional Connection** - Words that create personal investment
-3. **Contextual Relevance** - Words that make sense in our story world
-4. **Cognitive Load** - Simple concepts before complex grammar
+**Core Principles**:
 
----
-
-## PHASE 1: FOUNDATION WORDS (First 20 Words)
-
-_Goal: Create basic communication and story engagement_
-
-### Week 1: Essential Greetings & Politeness (5 words)
-
-**Story Context**: Meeting Carlos in the Plaza Central
-
-| English   | Spanish   | Gender | Story Moment              |
-| --------- | --------- | ------ | ------------------------- |
-| hello     | hola      | -      | First meeting with Carlos |
-| goodbye   | adiós     | -      | Carlos leaves to get help |
-| please    | por favor | -      | Carlos asks for help      |
-| thank you | gracias   | -      | Player helps Carlos       |
-| yes       | sí        | -      | Player agrees to help     |
-
-**Mini-Game**: Greeting Practice - Choose appropriate responses in conversation
-
-### Week 1: Core Nouns (10 words)
-
-**Story Context**: Exploring Carlos's neighborhood
-
-| English | Spanish     | Gender | Story Moment             |
-| ------- | ----------- | ------ | ------------------------ |
-| house   | casa        | la     | Carlos shows his home    |
-| water   | agua        | el     | Offering refreshment     |
-| food    | comida      | la     | Sharing a meal           |
-| friend  | amigo/amiga | el/la  | Carlos becomes friend    |
-| family  | familia     | la     | Meeting Carlos's family  |
-| dog     | perro       | el     | Family pet interaction   |
-| cat     | gato        | el     | Cat appears in scene     |
-| book    | libro       | el     | Mysterious changing book |
-| door    | puerta      | la     | Entering/exiting houses  |
-| window  | ventana     | la     | Looking through windows  |
-
-**Mini-Game**: House Explorer - Click on objects to learn their names
-
-### Week 1: Essential Verbs (5 words)
-
-**Story Context**: Basic actions in the story
-
-| English | Spanish   | Story Moment                   |
-| ------- | --------- | ------------------------------ |
-| to go   | ir        | "Let's go to my house"         |
-| to see  | ver       | "Come and see this"            |
-| to have | tener     | "I have something to show you" |
-| to be   | ser/estar | "This is my family"            |
-| to want | querer    | "I want to help you"           |
-
-**Mini-Game**: Action Charades - Match actions with Spanish verbs
+1. **Emotional Connection** - Words learned through genuine feeling stick better
+2. **Contextual Relevance** - Spanish appears when Dave desperately needs it
+3. **Chaos as Curriculum** - Overwhelming moments mirror real language immersion
+4. **Surrender Over Control** - Understanding comes from accepting confusion, not fighting it
 
 ---
 
-## PHASE 2: EXPANSION VOCABULARY (Next 30 Words)
+## PHASE 1: SPECTACULAR IMPLOSION (Scenes 1-6)
 
-### Week 2: Colors & Descriptions (8 words)
+_Goal: Survival Spanish through Dave's life falling apart_
 
-**Story Context**: The magical color-changing plaza
+### Scene 1: "La Llegada al Sótano" (Arrival at the Basement)
 
-| English | Spanish  | Gender | Story Integration    |
-| ------- | -------- | ------ | -------------------- |
-| red     | rojo     | -      | Flowers change color |
-| blue    | azul     | -      | Sky and water        |
-| green   | verde    | -      | Plants and trees     |
-| yellow  | amarillo | -      | Sun and flowers      |
-| white   | blanco   | -      | Clouds and buildings |
-| black   | negro    | -      | Night and shadows    |
-| big     | grande   | -      | Large plaza fountain |
-| small   | pequeño  | -      | Small details        |
+**Emotional Context**: Panicked control attempts  
+**Vocabulary Goal**: Basic survival needs (25 words)  
+**Learning Through**: Rock bottom desperation making Spanish necessary
 
-**Mini-Game**: Color Painter - Restore correct colors to faded objects
+**Essential Spanish for Chaos**:
 
-### Week 2: Numbers 1-10 (10 words)
+- **Survival**: necesito (I need), tengo (I have), ayuda (help), problema (problem)
+- **Location**: sótano (basement), habitación (room), dónde está (where is)
+- **Basic Communication**: hola, por favor, gracias, no entiendo
+- **Dave's State**: perdido (lost), confundido (confused), desesperado (desperate)
 
-**Story Context**: Counting mysterious objects
-
-| English | Spanish | Story Integration     |
-| ------- | ------- | --------------------- |
-| one     | uno     | One mysterious book   |
-| two     | dos     | Two helpful friends   |
-| three   | tres    | Three magic fountains |
-| four    | cuatro  | Four plaza corners    |
-| five    | cinco   | Five family members   |
-| six     | seis    | Six colorful flowers  |
-| seven   | siete   | Seven stone steps     |
-| eight   | ocho    | Eight market stalls   |
-| nine    | nueve   | Nine singing birds    |
-| ten     | diez    | Ten golden coins      |
-
-**Mini-Game**: Number Detective - Count objects to solve puzzles
-
-### Week 2: Body Parts & Emotions (12 words)
-
-**Story Context**: Character expressions and interactions
-
-| English | Spanish    | Gender | Story Integration      |
-| ------- | ---------- | ------ | ---------------------- |
-| head    | cabeza     | la     | Character gestures     |
-| hand    | mano       | la     | Pointing and touching  |
-| eye     | ojo        | el     | Seeing magical changes |
-| mouth   | boca       | la     | Speaking and eating    |
-| heart   | corazón    | el     | Emotional moments      |
-| happy   | feliz      | -      | Joy at helping         |
-| sad     | triste     | -      | Worry about problem    |
-| tired   | cansado    | -      | After long journey     |
-| hungry  | hambriento | -      | Meal time              |
-| thirsty | sediento   | -      | Needing water          |
-| good    | bueno      | -      | Positive feedback      |
-| bad     | malo       | -      | Describing problem     |
-
-**Mini-Game**: Emotion Mirror - Match facial expressions with Spanish words
+**Learning Mechanic**: Spanish words appear on mysterious sticky notes throughout basement
+**Emotional Connection**: Dave's desperation mirrors player's confusion with new language
 
 ---
 
-## PHASE 3: CONTEXTUAL EXPANSION (Next 40 Words)
+### Scene 2: "La Búsqueda de Trabajo" (The Job Hunt)
 
-### Week 3: Food & Meals (15 words)
+**Emotional Context**: Desperate scheming  
+**Vocabulary Goal**: Work and coffee survival (20 words)  
+**Learning Through**: Job interview requiring Spanish lies
 
-**Story Context**: Sharing meals with Carlos's family
+**Coffee Shop Chaos Spanish**:
 
-| English   | Spanish | Gender | Story Integration  |
-| --------- | ------- | ------ | ------------------ |
-| bread     | pan     | el     | Fresh from oven    |
-| meat      | carne   | la     | Family dinner      |
-| fruit     | fruta   | la     | Market shopping    |
-| vegetable | verdura | la     | Garden fresh       |
-| milk      | leche   | la     | Morning breakfast  |
-| cheese    | queso   | el     | Local specialty    |
-| egg       | huevo   | el     | Cooking together   |
-| rice      | arroz   | el     | Traditional dish   |
-| chicken   | pollo   | el     | Sunday meal        |
-| fish      | pescado | el     | Market fresh       |
-| apple     | manzana | la     | Healthy snack      |
-| orange    | naranja | la     | Vitamin C          |
-| tomato    | tomate  | el     | Garden grown       |
-| potato    | patata  | la     | Versatile food     |
-| onion     | cebolla | la     | Cooking ingredient |
+- **Work**: trabajo (job), jefe (boss), dinero (money), cliente (customer)
+- **Coffee**: café, leche (milk), azúcar (sugar), caliente (hot)
+- **Emotions**: frustrado (frustrated), tranquilo (calm), nervioso (nervous)
+- **Actions**: trabajar (to work), servir (to serve), aprender (to learn)
 
-**Mini-Game**: Master Chef - Prepare traditional Spanish dishes
-
-### Week 3: Time & Weather (10 words)
-
-**Story Context**: Daily life and natural changes
-
-| English   | Spanish  | Gender | Story Integration     |
-| --------- | -------- | ------ | --------------------- |
-| day       | día      | el     | "Good day to you"     |
-| night     | noche    | la     | Evening conversations |
-| morning   | mañana   | la     | Starting new day      |
-| afternoon | tarde    | la     | Siesta time           |
-| sun       | sol      | el     | Bright plaza          |
-| rain      | lluvia   | la     | Weather changes       |
-| wind      | viento   | el     | Moving through trees  |
-| hot       | caliente | -      | Summer weather        |
-| cold      | frío     | -      | Winter coming         |
-| today     | hoy      | -      | Present moment        |
-
-**Mini-Game**: Weather Prophet - Predict and describe weather changes
-
-### Week 3: Movement & Directions (15 words)
-
-**Story Context**: Navigating the magical pueblo
-
-| English  | Spanish   | Story Integration       |
-| -------- | --------- | ----------------------- |
-| to walk  | caminar   | Exploring the plaza     |
-| to run   | correr    | Chasing magical effects |
-| to stop  | parar     | Pausing to observe      |
-| to turn  | girar     | Changing direction      |
-| to come  | venir     | "Come with me"          |
-| to leave | salir     | Exiting buildings       |
-| here     | aquí      | "Stand here"            |
-| there    | allí      | "Look over there"       |
-| left     | izquierda | Directional guidance    |
-| right    | derecha   | Navigation help         |
-| up       | arriba    | Looking skyward         |
-| down     | abajo     | Ground level            |
-| inside   | dentro    | Entering buildings      |
-| outside  | fuera     | Plaza activities        |
-| near     | cerca     | Close proximity         |
-
-**Mini-Game**: Plaza Navigator - Follow Spanish directions to find hidden objects
+**Learning Mechanic**: Coffee machine only responds to Spanish commands
+**Emotional Connection**: Employment desperation drives vocabulary absorption
 
 ---
 
-## PHASE 4: GRAMMAR INTRODUCTION (Weeks 4-6)
+### Scene 3: "La Investigación Federal" (The Federal Investigation)
 
-### Week 4: Articles & Gender System
+**Emotional Context**: Bureaucratic terror  
+**Vocabulary Goal**: Official language and defensive responses (25 words)  
+**Learning Through**: FBI paperwork requiring Spanish philosophical responses
 
-**Story Context**: The mystery of why some words are "el" and others "la"
+**Federal Philosophy Spanish**:
 
-**Learning Approach**:
+- **Official**: investigación (investigation), documentos (documents), gobierno (government), autoridad (authority)
+- **Defense**: no sé (I don't know), no entiendo (I don't understand), soy inocente (I'm innocent)
+- **Philosophy**: resistencia (resistance), aceptación (acceptance), meditación (meditation), presencia (presence)
+- **Time**: ayer (yesterday), hoy (today), mañana (tomorrow)
 
-- Introduce through story: "The words have lost their partners!"
-- Visual cues: Blue for "el", Pink for "la"
-- Pattern recognition through repeated exposure
-
-**Mini-Game**: Word Matchmaker - Reunite articles with their nouns
-
-### Week 5: Present Tense Verbs
-
-**Story Context**: Describing current actions and states
-
-**Learning Approach**:
-
-- Start with "I am/You are" (Yo soy/Tú eres)
-- Progress through regular -ar verbs
-- Use in dialogue choices
-
-**Mini-Game**: Action Theater - Act out verbs in present tense
-
-### Week 6: Question Formation
-
-**Story Context**: Investigating the magical mystery
-
-**Learning Approach**:
-
-- Question words through detective work
-- "¿Qué?" (What?) "¿Dónde?" (Where?) "¿Cómo?" (How?)
-- Player asks questions to solve puzzles
-
-**Mini-Game**: Mystery Detective - Ask the right questions in Spanish
+**Learning Mechanic**: Agent Martinez speaks "mindful Spanish bureaucracy"
+**Emotional Connection**: Fear of authority creates memorable learning moments
 
 ---
 
-## ASSESSMENT & REINFORCEMENT STRATEGIES
+## PHASE 2: EMBRACING THE CHAOS (Scenes 7-12)
 
-### Spaced Repetition Schedule
+_Goal: Dancing with Spanish instead of fighting it_
 
-- **Day 1**: Learn new word
-- **Day 3**: First review
-- **Day 7**: Second review
-- **Day 14**: Third review
-- **Day 30**: Long-term retention check
+### Key Learning Principles
 
-### Contextual Reinforcement
-
-- Words appear in multiple story contexts
-- Different characters use the same vocabulary
-- Environmental text uses learned words
-
-### Progress Indicators
-
-- **Visual**: Words literally transform from English to Spanish
-- **Audio**: Pronunciation becomes more natural
-- **Contextual**: Player understands without translation
-
-### Difficulty Scaling
-
-- **Beginner**: Single word replacement
-- **Intermediate**: Phrase replacement
-- **Advanced**: Full sentence comprehension
+- **Physical Movement Unlocks Grammar**: Zumba class teaches verb conjugations
+- **Technology Rebellion**: Devices only work with Spanish acceptance
+- **Crisis Convergence**: Overwhelming input mirrors real immersion
+- **Pattern Recognition**: Self-awareness through linguistic mirrors
 
 ---
 
-## SUCCESS METRICS
+## PHASE 3: INTEGRATION AND MASTERY (Scenes 13-18)
 
-### Learning Objectives by Phase
+_Goal: Natural Spanish fluency through wisdom integration_
 
-- **Phase 1**: 90% retention of first 20 words
-- **Phase 2**: 80% retention of 50 total words
-- **Phase 3**: 70% retention of 90 total words
-- **Phase 4**: Basic grammar comprehension
+### Advanced Learning Concepts
 
-### Engagement Metrics
+- **Teaching Others**: Dave helps new confused arrivals
+- **Philosophical Discussions**: Complex emotional vocabulary
+- **Community Integration**: Natural conversation flow
+- **Wisdom Transmission**: Spanish as vehicle for life lessons
 
-- **Story Completion**: 80% finish Phase 1
-- **Voluntary Practice**: 60% replay mini-games
-- **Word Usage**: Players choose Spanish options when available
+---
 
-This progression ensures that every word learned serves the story, and every story moment reinforces learning. The magical realism of words "transforming" provides a perfect metaphor for the learning process itself.
+## Learning Mechanics Integration
+
+### Spaced Repetition Through Story
+
+- **Scene Introduction**: 3-5 repetitions in context
+- **Next Scene Review**: 2-3 appearances in different situations
+- **Long-term Integration**: Words woven into ongoing dialogue
+- **Mastery Demonstration**: Player uses words naturally without thinking
+
+### Emotional State Learning
+
+- **High Stress**: Simpler Spanish, more English support
+- **Acceptance Moments**: Complex grammar unlocks naturally
+- **Breakthrough States**: Advanced concepts become accessible
+- **Teaching Phase**: Player helps others using acquired Spanish
+
+### Visual Progress System
+
+- **Unknown**: Grayed out with question mark
+- **Learning**: Yellow glow, fading English subtitles
+- **Confident**: Green glow, context-only understanding
+- **Mastered**: Gold star, natural conversation integration
+
+---
+
+## Success Metrics
+
+### Learning Effectiveness
+
+- **Vocabulary Retention**: 75% of words remembered after 2 weeks
+- **Spanish Confidence**: 80% report increased willingness to speak
+- **Emotional Connection**: 90% remember words learned during emotional moments
+- **Long-term Engagement**: 60% continue Spanish learning after game completion
+
+### Story Engagement
+
+- **Completion Rate**: 85% finish Act I, 60% complete full game
+- **Emotional Investment**: 90% report caring about character outcomes
+- **Replay Interest**: 40% start second playthrough within 6 months
+
+This learning map ensures Spanish acquisition through genuine emotional investment in Dave's transformation, making vocabulary retention natural and meaningful.
