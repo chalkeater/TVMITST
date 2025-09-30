@@ -1,0 +1,35 @@
+# Storage Box - Organization puzzle and Dave's chaos
+# Item: storage_box (orange placeholder in basement)
+
+:look
+	# Player examines the storage box
+	say(dave, "A cardboard box... una caja.")
+	say(dave, "It's labeled 'ORGANIZACIÓN'. That's... organization?")
+	
+	# Track learned words
+	set_global("learned_caja", true)
+	set_global("learned_organizacion", true)
+	
+	if !$examined_storage_contents:
+		say(dave, "It's full of my life falling apart in physical form.")
+		say(dave, "Bills, documents, random cables... todo perdido.")
+		set_global("learned_perdido", true)
+		set_global("examined_storage_contents", true)
+
+:use
+	# Player tries to organize or use the box
+	say(dave, "I should probably organize this mess...")
+	say(dave, "But right now I'm too confundido to even start.")
+	set_global("learned_confundido", true)
+	
+	# Self-aware Dave moment
+	say(dave, "Why does the universe label my chaos in Spanish?")
+	say(dave, "Is this some kind of cosmic joke?")
+
+:use "sticky_note_1"
+	# Trying to organize with the sticky note
+	say(dave, "Maybe I should label things like whoever left these notes?")
+	say(dave, "Step one: Learn Spanish.")
+	say(dave, "Step two: Organize life.")
+	say(dave, "Step three: ???")
+	say(dave, "Step four: Enlightenment, probably.")

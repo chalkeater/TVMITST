@@ -11,13 +11,63 @@ config_version=5
 [application]
 
 config/name="TVMITST"
-run/main_scene="uid://cqvv4jubj31hy"
+run/main_scene="uid://b6fjpnn3uo0r1"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[audio]
+
+buses/default_bus_layout="res://addons/escoria-core/buses/default_bus_layout.tres"
+
 [autoload]
 
-DialogueManager="*res://scripts/DialogueManager.gd"
+SpanishLearningManager="*res://scripts/SpanishLearningManager.gd"
+escoria="*res://addons/escoria-core/game/esc_autoload.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/escoria-core/plugin.cfg", "res://addons/gut/plugin.cfg")
+
+[escoria]
+
+main/command_directories=["res://addons/escoria-core/game/core-scripts/esc/commands"]
+main/game_version=""
+main/game_start_script="res://game_start.esc"
+main/action_default_script=""
+main/force_quit=true
+main/text_lang="en"
+main/voice_lang="en"
+main/savegames_path="user://saves/"
+main/settings_path="user://"
+main/game_migration_path=""
+debug/terminate_on_warnings=false
+debug/terminate_on_errors=true
+debug/development_lang="en"
+debug/log_level="ERROR"
+debug/log_file_path="user://"
+debug/crash_message="We're sorry, but the game crashed. Please send us the following files:
+
+%s"
+debug/enable_room_selector=false
+debug/room_selector_room_dir=""
+debug/enable_hover_stack_viewer=false
+debug/perform_script_analysis_at_runtime=true
+ui/default_dialog_type="simple"
+ui/inventory_items_path="res://game/items/inventory/"
+ui/default_transition="curtain"
+ui/transition_paths=["res://addons/escoria-core/game/scenes/transitions/shaders/"]
+ui/inventory_item_size=Vector2(72, 72)
+ui/dialog_managers=["res://simple_dialog_manager.gd"]
+sound/master_volume=1
+sound/music_volume=1
+sound/sfx_volume=1
+sound/speech_volume=1
+sound/speech_enabled=true
+sound/speech_folder="res://speech"
+sound/speech_extension="ogg"
+platform/skip_cache=false
+platform/skip_cache.mobile=true
+ui/game_scene="res://game_scene.tscn"
 
 [input]
 

@@ -1,0 +1,173 @@
+{
+  "scene_name": "La Llegada al Sótano",
+  "scene_description": "Dave arrives at his cousin's basement - rock bottom central",
+  "teaching_goal": "Basic survival vocabulary (25 words)",
+  "grammar_focus": "Present tense basics, essential questions",
+  "emotional_context": "Panicked control attempts",
+
+  "vocabulary": {
+    "basic_survival": {
+      "hello": {
+        "spanish": "hola",
+        "pronunciation": "OH-lah",
+        "context": "Greeting sticky note on basement door",
+        "emotional_weight": 0.1
+      },
+      "please": {
+        "spanish": "por favor",
+        "pronunciation": "por fah-VOR",
+        "context": "Desperate plea on WiFi password note",
+        "emotional_weight": 0.3
+      },
+      "thank you": {
+        "spanish": "gracias",
+        "pronunciation": "GRAH-see-ahs",
+        "context": "Response to any help received",
+        "emotional_weight": 0.2
+      },
+      "help": {
+        "spanish": "ayuda",
+        "pronunciation": "ah-YOO-dah",
+        "context": "Dave's desperate state",
+        "emotional_weight": 0.8
+      },
+      "I need": {
+        "spanish": "necesito",
+        "pronunciation": "neh-seh-SEE-toh",
+        "context": "Basic survival needs",
+        "emotional_weight": 0.7
+      },
+      "I have": {
+        "spanish": "tengo",
+        "pronunciation": "TEN-goh",
+        "context": "Inventory of possessions",
+        "emotional_weight": 0.4
+      },
+      "where is": {
+        "spanish": "dónde está",
+        "pronunciation": "DON-deh ehs-TAH",
+        "context": "Looking for bathroom, kitchen, etc.",
+        "emotional_weight": 0.5
+      },
+      "I don't understand": {
+        "spanish": "no entiendo",
+        "pronunciation": "noh en-tee-EN-doh",
+        "context": "Dave's constant state",
+        "emotional_weight": 0.9
+      }
+    },
+
+    "chaos_vocabulary": {
+      "basement": {
+        "spanish": "sótano",
+        "pronunciation": "SOH-tah-noh",
+        "context": "Dave's new 'home'",
+        "emotional_weight": 0.6
+      },
+      "room": {
+        "spanish": "habitación",
+        "pronunciation": "ah-bee-tah-see-OHN",
+        "context": "Describing living space",
+        "emotional_weight": 0.3
+      },
+      "problem": {
+        "spanish": "problema",
+        "pronunciation": "proh-BLEH-mah",
+        "context": "Dave's life situation",
+        "emotional_weight": 0.8
+      },
+      "lost": {
+        "spanish": "perdido",
+        "pronunciation": "per-DEE-doh",
+        "context": "Dave's emotional and physical state",
+        "emotional_weight": 0.9
+      },
+      "confused": {
+        "spanish": "confundido",
+        "pronunciation": "kon-fun-DEE-doh",
+        "context": "Dave's mental state",
+        "emotional_weight": 0.8
+      },
+      "desperate": {
+        "spanish": "desesperado",
+        "pronunciation": "deh-sehs-peh-RAH-doh",
+        "context": "Dave's emotional state",
+        "emotional_weight": 1.0
+      },
+      "chaos": {
+        "spanish": "caos",
+        "pronunciation": "KAH-ohs",
+        "context": "Dave's life situation",
+        "emotional_weight": 0.9
+      }
+    },
+
+    "essential_questions": {
+      "what": {
+        "spanish": "qué",
+        "pronunciation": "keh",
+        "context": "Basic questioning",
+        "emotional_weight": 0.2
+      },
+      "where": {
+        "spanish": "dónde",
+        "pronunciation": "DON-deh",
+        "context": "Location questions",
+        "emotional_weight": 0.3
+      },
+      "how": {
+        "spanish": "cómo",
+        "pronunciation": "KOH-moh",
+        "context": "Process questions",
+        "emotional_weight": 0.4
+      },
+      "who": {
+        "spanish": "quién",
+        "pronunciation": "kee-EN",
+        "context": "Person identification",
+        "emotional_weight": 0.2
+      }
+    },
+
+    "basement_items": {
+      "box": {
+        "spanish": "caja",
+        "pronunciation": "KAH-hah",
+        "context": "Storage containers to organize",
+        "emotional_weight": 0.3
+      },
+      "note": {
+        "spanish": "nota",
+        "pronunciation": "NOH-tah",
+        "context": "Mysterious Spanish sticky notes",
+        "emotional_weight": 0.5
+      },
+      "wifi": {
+        "spanish": "wifi",
+        "pronunciation": "WEE-fee",
+        "context": "Internet connection necessity",
+        "emotional_weight": 0.6
+      },
+      "password": {
+        "spanish": "contraseña",
+        "pronunciation": "kon-trah-SEH-nyah",
+        "context": "Daily changing WiFi password",
+        "emotional_weight": 0.7
+      }
+    }
+  },
+
+  "learning_mechanics": {
+    "sticky_notes": "Spanish words appear on mysterious sticky notes throughout basement",
+    "wifi_puzzle": "Daily WiFi password requires matching Spanish words to pictures",
+    "organization_game": "Click items to arrange space, each labeled in Spanish",
+    "emotional_connection": "Dave's desperation mirrors player's confusion with new language"
+  },
+
+  "spaced_repetition": {
+    "immediate": "New words appear 3-5 times in scene",
+    "scene_plus_1": "Words appear 2-3 times in Scene 2",
+    "scene_plus_3": "Words integrated into natural dialogue",
+    "ongoing": "Core vocabulary woven throughout all subsequent scenes"
+  }
+}

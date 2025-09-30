@@ -1,0 +1,102 @@
+# TVMITST - Godot 4.4.1 Point-and-Click Adventure Game
+
+## Engine & Framework
+
+- Godot Engine: v4.4.1 stable
+- Framework: Escoria point-and-click plugin
+- This is a Godot game, NOT a React Native/Next.js project
+
+## AI Workflow Rules
+
+1. **Code & Data**: Edit directly in Cursor
+
+   - All .gd scripts
+   - All .json data files
+   - All .esc script files (Escoria event scripts for item interactions)
+   - README and documentation files
+
+2. **Scenes & Resources**: Provide Godot instructions instead of editing
+
+   - .tscn scene files
+   - .tres resource files
+   - .import files
+   - Any visual/layout changes
+
+   When scenes need changes, provide step-by-step Godot 4.4.1 editor instructions.
+
+3. **ESC Scripts for Content**:
+
+   - AI can create/edit .esc files for item interactions, dialogue, and game logic
+   - Each ESCItem in a scene can have an esc_script property pointing to a .esc file
+   - Common events: :look, :use, :talk, :setup, :ready, :exit_scene
+   - User creates items in Godot, AI writes the interaction logic in .esc files
+
+   ESC Syntax Rules:
+
+   - Global variables: use $variable_name in conditions (e.g., if $my_var:)
+   - Set globals: set_global("variable_name", value)
+   - Commands: function_name(arg1, arg2) format
+   - Event targets: use quotes for IDs with underscores (e.g., :use "item_name")
+   - No direct autoload calls: use set_global() to track state, room scripts handle logic
+
+   Valid ESC Commands (use these only):
+
+   - say(character_id, "dialogue text")
+   - set_global("var_name", value)
+   - print("debug message")
+   - wait(seconds)
+   - change_scene("res://path/to/scene.tscn")
+   - set_active(object_id, true/false)
+   - Custom commands must extend ESCBaseCommand
+
+4. **Escoria Architecture**:
+
+   - ESCRoom: Base class for room scenes (extends Node2D)
+   - ESCItem: Interactive items in rooms (extends Area2D)
+   - ESCPlayer: Player character (extends ESCItem)
+   - ESCLocation: Marker2D for positions (interaction points)
+   - ESCGame: Main game scene overlay (extends Node2D)
+
+   Room Structure:
+
+   - Each room has a .gd script (extends ESCRoom)
+   - Each room has an optional .esc script for room events
+   - Items in rooms have .esc scripts for interactions
+   - Room script sets global_id, esc_script, camera_limits
+
+   Item Interaction Flow:
+
+   - Player clicks item → Escoria finds corresponding event
+   - Events format: :action or :action "target"
+   - Escoria automatically handles player walking to items
+   - ESC scripts run after player arrives at ESCLocation
+
+5. **Testing Workflow** (IMPORTANT for AI agents):
+
+   - This project uses GUT (Godot Unit Test) for automated testing
+   - Tests are in `res://tests/` directory
+   - Golden-path tests MUST remain green - they validate core functionality
+   - See `tests/README.md` for full testing documentation
+
+   Test Commands:
+
+   - **Verify code compiles**: `./verify_code.sh` (AI agents should run this after changes)
+   - **Run tests in Godot**: Bottom panel → GUT tab → Run All (manual/user verification)
+   - CLI tests (`./run_tests.sh`) have compatibility issues with Godot 4.4.1
+
+   AI Development Loop:
+
+   1. Run `./verify_code.sh` before changes (check baseline)
+   2. Make your code changes
+   3. Run `./verify_code.sh` after changes (ensure no errors)
+   4. User runs tests in Godot editor for full validation
+   5. Add new tests for new features
+
+6. **Default Behavior**: When in doubt, provide Godot editor instructions rather than editing config files
+
+## Project Context
+
+- Spanish learning point-and-click adventure game
+- Currently implementing Scene 1 (basement) vertical slice
+- 23 Spanish words in Scene 1 vocabulary
+- Uses SpanishLearningManager autoload system

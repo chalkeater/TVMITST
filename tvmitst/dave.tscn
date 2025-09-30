@@ -1,0 +1,47 @@
+[gd_scene load_steps=7 format=3 uid="uid://b5dlcn6b87jsi"]
+
+[ext_resource type="Script" uid="uid://btrr8e33hu0i4" path="res://addons/escoria-core/game/core-scripts/esc_player.gd" id="1_bxjg6"]
+[ext_resource type="Texture2D" uid="uid://bxugrufx520ov" path="res://assets/characters/dave_idle_right.png" id="2_54ewi"]
+[ext_resource type="Resource" uid="uid://d16kprow1vgta" path="res://assets/characters/dave_animations.tres" id="3_anim"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kyaev"]
+radius = 100.0
+height = 624.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kyaev"]
+atlas = ExtResource("2_54ewi")
+region = Rect2(0, 0, 1024, 1536)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b1m15"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kyaev")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Dave" type="Area2D"]
+process_mode = 1
+script = ExtResource("1_bxjg6")
+selectable = true
+global_id = "dave"
+is_movable = true
+combine_when_selected_action_is_in = PackedStringArray()
+inventory_texture = ExtResource("2_54ewi")
+inventory_texture_hovered = ExtResource("2_54ewi")
+animations = ExtResource("3_anim")
+animations = ExtResource("3_anim")
+metadata/_custom_type_script = "uid://btrr8e33hu0i4"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-12, -142)
+shape = SubResource("CapsuleShape2D_kyaev")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -150)
+scale = Vector2(0.4, 0.4)
+sprite_frames = SubResource("SpriteFrames_b1m15")
+animation = &"idle"

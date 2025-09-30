@@ -1,0 +1,13 @@
+# TVMITST Game Start Script
+# This script contains the required init and newgame events for Escoria
+
+:init
+	print("TVMITST: Spanish Learning Adventure is starting...")
+	change_scene("res://basement_scene_1.tscn")
+
+:newgame
+	print("Starting a new Spanish learning adventure with Dave!")
+	set_global("spanish_words_learned", 0)
+	set_global("current_scene", "basement")
+	set_global("dave_emotional_state", "rock_bottom")
+	change_scene("res://basement_scene_1.tscn")

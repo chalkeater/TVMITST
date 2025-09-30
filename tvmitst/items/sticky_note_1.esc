@@ -1,0 +1,17 @@
+# Sticky Note 1 - First Spanish word encounter
+# Item: sticky_note_1 (yellow sticky note in basement)
+
+:look
+	# Player examines the sticky note
+	say(dave, "There's a yellow sticky note stuck to the wall...")
+	say(dave, "It says 'hola' in big letters. That's... Spanish?")
+	
+	# Track that Dave learned this word (SpanishLearningManager will handle this via room script)
+	set_global("learned_hola", true)
+	set_global("found_first_spanish_note", true)
+	print("Dave discovered his first Spanish word: hola")
+
+:use
+	# Player tries to take the sticky note
+	say(dave, "I should probably leave these notes where they are.")
+	say(dave, "They might be... important?")

@@ -1,0 +1,34 @@
+# WiFi Router - Password puzzle and connectivity struggles
+# Item: wifi_router (green placeholder in basement)
+
+:look
+	# Player examines the wifi router
+	say(dave, "The WiFi router is blinking its little lights at me...")
+	say(dave, "There's a sticky note on it that says 'wifi' and 'contraseña diaria'.")
+	say(dave, "Daily password? DAILY? Who does that?!")
+	
+	# Track learned words
+	set_global("learned_wifi", true)
+	set_global("learned_contrasena", true)
+	set_global("examined_wifi_router", true)
+	print("Dave discovered the WiFi situation")
+
+:use
+	# Player tries to use the router
+	if !$knows_wifi_password:
+		say(dave, "I need the password... necesito la contraseña.")
+		say(dave, "Where is it? Dónde está?")
+		set_global("learned_necesito", true)
+		set_global("learned_donde_esta", true)
+	else:
+		say(dave, "I already have the password. Time to connect!")
+
+:use "sticky_note_1"
+	# Combining sticky note with router
+	say(dave, "Wait... could this be the password?")
+	say(dave, "Let me try typing 'hola'...")
+	wait(1)
+	say(dave, "It worked! I'm online!")
+	set_global("knows_wifi_password", true)
+	set_global("wifi_connected", true)
+	print("Dave solved the WiFi puzzle!")

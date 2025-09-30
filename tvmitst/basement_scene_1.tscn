@@ -1,0 +1,112 @@
+[gd_scene load_steps=12 format=3 uid="uid://d3gyqrxavcqrt"]
+
+[ext_resource type="Script" uid="uid://n143n0jgg5o4" path="res://basement_scene_1.gd" id="1_t7fst"]
+[ext_resource type="Texture2D" uid="uid://j8eckagnfle2" path="res://assets/backgrounds/basement_scene_1_bg.png" id="2_c3lm1"]
+[ext_resource type="Script" uid="uid://fnwnfflaoeqp" path="res://addons/escoria-core/game/core-scripts/esc_background.gd" id="2_jyi1g"]
+[ext_resource type="Script" uid="uid://dshelmw7y44qg" path="res://addons/escoria-core/game/core-scripts/esc_item.gd" id="3_c3lm1"]
+[ext_resource type="PackedScene" uid="uid://b5dlcn6b87jsi" path="res://dave.tscn" id="4_7ankh"]
+[ext_resource type="Script" uid="uid://beh3ds4eapldu" path="res://addons/escoria-core/game/core-scripts/esc_location.gd" id="5_location"]
+[ext_resource type="Script" uid="uid://5pbcieq7gpdo" path="res://addons/escoria-core/game/core-scripts/esc_terrain.gd" id="7_7ankh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dip7a"]
+size = Vector2(28, 30.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v5k7f"]
+size = Vector2(57.5, 27.25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_orr5v"]
+size = Vector2(217, 130)
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_7ankh"]
+vertices = PackedVector2Array(1413.08, 970.422, 1597.41, 1026.89, 190.5, 1071.15, 407.133, 987.578, 760, 943.977, 1220.01, 945.023, 449.594, 849.328, 760, 819.992, 1412.08, 873.398, 1242.67, 843.508)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3, 4, 5), PackedInt32Array(6, 7, 4, 3), PackedInt32Array(8, 0, 5, 9)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(442, 840, 770, 809, 770, 934, 1212, 935, 1235, 832, 1422, 865, 1423, 963, 1658, 1035, 132, 1083, 399, 980)])
+
+[node name="BasementScene1" type="Node2D"]
+script = ExtResource("1_t7fst")
+global_id = "basement_scene_1"
+player_scene = ExtResource("4_7ankh")
+camera_limits = [Rect2(0, 0, 1920, 1080)]
+metadata/_custom_type_script = "uid://c7fcpp72w3dnj"
+
+[node name="BasementBackground" type="TextureRect" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+mouse_filter = 2
+texture = ExtResource("2_c3lm1")
+script = ExtResource("2_jyi1g")
+metadata/_custom_type_script = "uid://fnwnfflaoeqp"
+
+[node name="StickyNote1" type="Area2D" parent="."]
+process_mode = 1
+position = Vector2(419, 40)
+script = ExtResource("3_c3lm1")
+global_id = "sticky_note_1"
+esc_script = "res://items/sticky_note_1.esc"
+tooltip_name = "Sticky Note"
+combine_when_selected_action_is_in = PackedStringArray()
+metadata/_custom_type_script = "uid://dshelmw7y44qg"
+
+[node name="ColorRect" type="ColorRect" parent="StickyNote1"]
+offset_left = -14.0
+offset_top = -15.0
+offset_right = 14.0
+offset_bottom = 15.0
+color = Color(1, 1, 0.2, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StickyNote1"]
+shape = SubResource("RectangleShape2D_dip7a")
+
+[node name="WiFiRouter" type="Area2D" parent="."]
+process_mode = 1
+position = Vector2(121, 940)
+script = ExtResource("3_c3lm1")
+global_id = "wifi_router"
+esc_script = "res://items/wifi_router.esc"
+tooltip_name = "WiFi Router"
+combine_when_selected_action_is_in = PackedStringArray()
+metadata/_custom_type_script = "uid://dshelmw7y44qg"
+
+[node name="ColorRect" type="ColorRect" parent="WiFiRouter"]
+offset_left = -28.0
+offset_top = -13.0
+offset_right = 28.0
+offset_bottom = 13.0
+color = Color(0.2, 1, 0.2, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WiFiRouter"]
+shape = SubResource("RectangleShape2D_v5k7f")
+
+[node name="StorageBox" type="Area2D" parent="."]
+process_mode = 1
+position = Vector2(984, 805)
+script = ExtResource("3_c3lm1")
+global_id = "storage_box"
+esc_script = "res://items/storage_box.esc"
+tooltip_name = "Storage Box"
+combine_when_selected_action_is_in = PackedStringArray()
+metadata/_custom_type_script = "uid://dshelmw7y44qg"
+
+[node name="ColorRect" type="ColorRect" parent="StorageBox"]
+offset_left = -108.0
+offset_top = -65.0
+offset_right = 108.0
+offset_bottom = 65.0
+color = Color(1, 0.5, 0.2, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StorageBox"]
+shape = SubResource("RectangleShape2D_orr5v")
+
+[node name="DaveStartLocation" type="Marker2D" parent="."]
+position = Vector2(597, 906)
+script = ExtResource("5_location")
+global_id = "dave_start"
+is_start_location = true
+
+[node name="ESCTerrain" type="Node2D" parent="."]
+script = ExtResource("7_7ankh")
+metadata/_custom_type_script = "uid://5pbcieq7gpdo"
+
+[node name="basement_walkable" type="NavigationRegion2D" parent="ESCTerrain"]
+position = Vector2(31, -13)
+navigation_polygon = SubResource("NavigationPolygon_7ankh")
